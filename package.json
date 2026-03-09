@@ -1,0 +1,27 @@
+{
+  "name": "yt-mp3-converter-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atayiilmaz/yt-mp3-converter-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atayiilmaz/yt-mp3-converter-api/issues"
+  },
+  "homepage": "https://github.com/atayiilmaz/yt-mp3-converter-api#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "youtube-dl-exec": "^3.1.3"
+  }
+}
