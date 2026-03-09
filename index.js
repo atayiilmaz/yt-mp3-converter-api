@@ -63,7 +63,7 @@ app.post("/convert", limiter, async (req, res) => {
         // index.js içinde res.json kısmını şöyle güncelle:
         res.json({
           success: true,
-          fileUrl: `${req.protocol}://${req.get("host")}/download/${fileId}.mp3`,
+          fileUrl: `${req.protocol}://${req.get("host")}/yt/download/${fileId}.mp3`,
           expiresIn: "10 minutes",
         });
 
